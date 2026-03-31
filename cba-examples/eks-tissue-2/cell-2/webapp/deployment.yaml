@@ -4,7 +4,7 @@ metadata:
   name: webapp
   namespace: eks-tissue-2-cell-2
 spec:
-  replicas: 2
+  replicas: 3
   revisionHistoryLimit: 3
   selector:
     matchLabels:
