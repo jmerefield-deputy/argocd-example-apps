@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: svc-a
+  namespace: eks-tissue-2-cell-1
 spec:
   replicas: 1
   revisionHistoryLimit: 3

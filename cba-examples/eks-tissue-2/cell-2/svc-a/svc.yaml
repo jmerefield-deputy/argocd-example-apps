@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: svc-a
+  namespace: eks-tissue-2-cell-2
 spec:
   ports:
   - port: 80
